@@ -1,0 +1,29 @@
+\begin{titlepage}
+	\vspace*{\fill}
+	\begin{center}
+		{\bf {\Huge \@title}} \\
+		\vspace{.5cm}
+		{\bf {\large \sc \@author}} \\
+
+		\vspace{.4cm}
+
+		\vspace{.8cm}
+		Academiejaar 2013-2014
+		\vspace{1cm}
+
+	\end{center}
+	\vspace*{\fill}
+\end{titlepage}
+
+\pagestyle{fancy}
+%\lhead{\@author}
+\lhead{Kevin Canters \& Alexandro Fulco \& Frederic Van Assche}
+%\chead{{\sc \@title}}
+%\rhead{Academiejaar 2013-2014}
+\rhead{}
+\lfoot{}
+\cfoot{\thepage\ van \pageref{LastPage}}
+\rfoot{}
+\setcounter{page}{1}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{0.4pt}
